@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pancho Papas</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="gerInicio.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body id="top">
+
+  <main>
+    <article>
+
+      <section class="section food-menu" id="food-menu">
+
+        <a href="#" class="back-link"><i class="bi bi-caret-left-fill"></i>Regresar</a>
+        <a href="#" class="back-link1">Gerente<i class="bi bi-person-circle"></i></a>
+
+        <div class="container">
+
+            <h2 class="h2 section-title">
+                Pancho Papas
+              </h2>
+          <h2 class="h2 section-title">
+            Gestión de <span class="span" >Productos</span>
+          </h2>
+
+          <ul class="fiter-list">
+
+            <li>
+              <button class="filter-btn  active">Todo</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Pizza</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Hamburguesas</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Bebidas</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Hot-Dogs</button>
+            </li>
+
+          </ul>
+
+          <ul class="food-menu-list">
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <h3 class="h3 card-title">Hamburguesa + Cola + Papas</h3>
+                  <img src="./assets/images/food-menu-1.png" width="300" height="300" loading="lazy"
+                    alt="Fried Chicken Unlimited" class="w-100">
+                    <br></br>
+                </div>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Precio:</p>
+
+                  <data class="price">$3.00</data>
+
+                </div>
+
+                <button class="btn " onclick="editarNow()">Editar</button>
+
+                <button class="btn btn2">Eliminar</button>
+
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <h3 class="h3 card-title">Salchipapa</h3>
+                  <img src="./assets/images/food-menu-2.png" width="300" height="300" loading="lazy"
+                    alt="Burger King Whopper" class="w-1000">
+                    <br></br>
+                </div>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Precio:</p>
+
+                  <data class="price">$1.00</data>
+
+                </div>
+
+                <button class="btn ">Editar</button>
+
+                <button class="btn btn2">Eliminar</button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <h3 class="h3 card-title">Hot-Dog + Cola + Papas</h3>
+                  <img src="./assets/images/food-menu-3.png" width="300" height="300" loading="lazy"
+                    alt="White Castle Pizzas" class="w-10000">
+
+                </div>
+              
+                <div class="price-wrapper">
+
+                  <p class="price-text">Precio:</p>
+
+                  <data class="price">$2.00</data>
+
+                </div>
+
+                <button class="btn " >Editar</button>
+
+                <button class="btn btn2">Eliminar</button>
+
+              </div>
+            </li>
+
+
+        </div>
+      </section>
+
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+  <script src="./assets/js/script.js" defer></script>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
